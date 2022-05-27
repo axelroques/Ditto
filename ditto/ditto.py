@@ -1,13 +1,13 @@
 
 from .analysis.analysis import show_cover
-from .candidates import Candidates
+from .classes.candidates import Candidates
 from .variations import variations
 from .cover import Cover
 from .prune import prune
 from .tree import Tree
-from .MDL import MDL
-from .ST import ST
-from .CT import CT
+from .classes.MDL import MDL
+from .classes.ST import ST
+from .classes.CT import CT
 
 import pandas as pd
 import numpy as np

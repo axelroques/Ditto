@@ -1,5 +1,4 @@
 
-from .pattern import Pattern
 import numpy as np
 
 
